@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .attribution {
+        transition: none;
+    }
+
+    .attribution:hover {
+        transform: none;
+    }
+}
+@media screen {
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F2F2F2;
+    ;
+}
+
+h1 {
+    color: #F2F2F2;
+    width: 212px;
+    height: 48px;
+    font-family: "Big Shoulders", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0px;
+}
+
+p {
+    color: #F2F2F2;
+    width: 212px;
+    height: 125px;
+    opacity: 0.75;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 165%;
+    letter-spacing: 0px;
+
+}
+
+.card_container {
+    display: grid;
+    width: 921px;
+    height: 500px;
+    top: 150px;
+    left: 259px;
+    grid-template-columns: 1fr 2fr 1fr;
+
+}
+
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    width: 212px;
+    gap: 40px;
+}
+
+.i_bg_sedan-lux {
+    width: 63.92px;
+    height: 40px;
+}
+
+.i_bg_suv {
+    width: 63.99px;
+    height: 40px;
+}
+
+.card_sedan {
+    width: 307px;
+    height: 500px;
+    gap: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 48px;
+    background-color: #E28625;
+
+}
+
+.t_cont_sedan {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 80px;
+    justify-content: space-between;
+
+
+    .desc-sedan {
+        display: flex;
+        flex-direction: column;
+        width: 212px;
+        height: 197px;
+        gap: 24px;
+        justify-content: space-between;
+    }
+
+    .button_sedan {
+        width: 147px;
+        height: 48px;
+        gap: 8px;
+        padding: 8px 32px;
+        border-radius: 25px;
+        background-color: #F2F2F2;
+        border: 2px solid transparent;
+        display: block;
+    }
+
+    .button_sedan a {
+        width: 83px;
+        height: 25px;
+        font-family: "Lexend Deca", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 165%;
+        letter-spacing: 0px;
+        color: #E28625;
+        display: block;
+        text-decoration: none;
+
+    }
+
+    .button_sedan:hover {
+        background-color: #E28625;
+        border: 2px solid #F2F2F2;
+        cursor: pointer;
+    }
+
+    .button_sedan:hover a {
+        color: #F2F2F2;
+    }
+}
+
+
+.card_suv {
+    width: 307px;
+    height: 500px;
+    gap: 8px;
+    padding: 48px;
+    background-color: #006971;
+}
+
+.t_cont_suv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 80px;
+    justify-content: space-between;
+
+
+    .desc-suv {
+        display: flex;
+        flex-direction: column;
+        width: 212px;
+        height: 197px;
+        gap: 24px;
+        justify-content: space-between;
+    }
+
+    .button_suv {
+        width: 147px;
+        height: 48px;
+        gap: 8px;
+        padding: 8px 32px;
+        border-radius: 25px;
+        background-color: #F2F2F2;
+        border: 2px solid transparent;
+        display: block;
+    }
+
+    .button_suv a {
+        width: 83px;
+        height: 25px;
+        font-family: "Lexend Deca", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 165%;
+        letter-spacing: 0px;
+        color: #006971;
+        display: block;
+        text-decoration: none;
+
+    }
+
+    .button_suv:hover {
+        background-color: #006971;
+        border: 2px solid #F2F2F2;
+        cursor: pointer;
+    }
+
+    .button_suv:hover a {
+        color: #F2F2F2;
+    }
+}
+
+.card_luxury {
+    width: 307px;
+    height: 500px;
+    gap: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 48px;
+    background-color: #004140;
+}
+
+.t_cont_luxury {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 80px;
+    justify-content: space-between;
+
+
+    .desc-luxury {
+        display: flex;
+        flex-direction: column;
+        width: 212px;
+        height: 197px;
+        gap: 24px;
+        justify-content: space-between;
+    }
+
+    .button_luxury {
+        width: 147px;
+        height: 48px;
+        gap: 8px;
+        padding: 8px 32px;
+        border-radius: 25px;
+        background-color: #F2F2F2;
+        border: 2px solid transparent;
+        display: block;
+    }
+
+    .button_luxury a {
+        width: 83px;
+        height: 25px;
+        font-family: "Lexend Deca", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 165%;
+        letter-spacing: 0px;
+        color: #004140;
+        display: block;
+        text-decoration: none;
+
+    }
+
+    .button_luxury:hover {
+        background-color: #004140;
+        border: 2px solid #F2F2F2;
+        cursor: pointer;
+    }
+
+    .button_luxury:hover a {
+        color: #F2F2F2;
+    }
+}
+
+.attribution {
+    font-family: "Lexend Deca", sans-serif;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.attribution:hover {
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 600px) {
+    body {
+        padding: 40px 24px;
+    }
+
+    .card_container {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        max-width: 307px;
+        height: auto;
+    }
+
+    .card_sedan,
+    .card_suv,
+    .card_luxury {
+        width: 100%;
+        height: 500px;
+    }
+
+    .card_sedan {
+        border-radius: 8px 8px 0 0;
+    }
+
+    .card_luxury {
+        border-radius: 0 0 8px 8px;
+    }
+}
+.button_sedan,
+.button_suv,
+.button_luxury {
+    box-sizing: border-box;
+    max-width: 100%;
+}
